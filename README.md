@@ -1,3 +1,3 @@
-# Jakie-Repository
+# Sidewinder
 
-Github page for the Jakie's Repository website. Mainly used for creating download links.
+Github page for the Sidewinder. Mainly used for creating download links.
