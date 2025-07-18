@@ -1,0 +1,129 @@
+type = "Doom Builder Map Settings Configuration";
+gameconfig = "GZDoom_StrifeUDMF.cfg";
+strictpatches = 0;
+
+maps
+{
+	
+	MAP71
+	{
+		defaultwalltexture = "BRKGRY17";
+		overridemiddletexture = false;
+		defaultceiltexture = "F_SKY001";
+		overrideceiltexture = true;
+		custombrightness = 196;
+		scriptcompiler = "zdoom_acs.cfg";
+		
+		resources
+		{
+			
+			resource0
+			{
+				type = 2;
+				location = "C:\\Users\\Jakie\\Documents\\Doom Projects\\strife\\RebelConquest.pk3";
+				option1 = 0;
+				option2 = 0;
+				notfortesting = 0;
+			}
+		}
+		viewpositiony = 7293.381f;
+		viewpositionx = -11641.25f;
+		
+		testprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		customceilheight = 129;
+		customfloorheight = 0;
+		
+		grid
+		{
+			backoffsetx = 0;
+			backsource = 0;
+			gridoriginy = 0;
+			backscaley = 100;
+			gridrotate = 0;
+			backscalex = 100;
+			gridoriginx = 0;
+			gridsize = 512;
+			background = "";
+			backoffsety = 0;
+		}
+		viewscale = 0.07546945f;
+		
+		reloadresourceprecommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		defaulttoptexture = "BRKGRY17";
+		overridebottomtexture = false;
+		defaultbottomtexture = "BRKGRY17";
+		defaultfloortexture = "F_GRASS";
+		overrideceilheight = true;
+		overridebrightness = false;
+		
+		testpostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		overridefloorheight = false;
+		overridetoptexture = false;
+		uselongtexturenames = false;
+		overridefloortexture = false;
+		
+		reloadresourcepostcommand
+		{
+			autocloseonsuccess = true;
+			exitcodeiserror = true;
+			stderriserror = true;
+		}
+		
+		plugins
+		{
+			
+			threedfloormode
+			{
+				
+				controlsectorarea
+				{
+					usecustomtagrange = false;
+					outerleft = -512;
+					outerright = 0;
+					outertop = 512;
+					outerbottom = 0;
+				}
+			}
+		}
+		
+		scriptdocuments
+		{
+			
+			document0
+			{
+				filename = "DIALOGUE";
+				hash = 3588187714;
+				resource;
+				tabtype = 0;
+				scripttype = 18;
+				caretposition = 2089;
+				firstvisibleline = 63;
+				activetab = true;
+			}
+			
+			document1
+			{
+				filename = "SCRIPTS";
+				hash = 3469170009;
+				resource;
+				tabtype = 0;
+				scripttype = 1;
+			}
+		}
+	}
+}
